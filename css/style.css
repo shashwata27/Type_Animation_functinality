@@ -1,0 +1,46 @@
+:root {
+  --my-blue: rgb(15, 12, 54);
+  --my-pink: #f1b8e8;
+}
+body {
+  background-color: var(--my-pink);
+  text-align: center;
+  color: var(--my-blue);
+  padding-top: 0em;
+
+  height: 200vh;
+}
+
+* {
+  color: var(--my-blue);
+  text-decoration: none;
+}
+
+div {
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: expanded;
+}
+
+.title {
+  padding-top: 10rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-btn .menu-btn__burger,
+.menu-btn .menu-btn__burger2,
+.menu-btn .menu-btn__burger3 {
+  width: 5rem;
+  height: 0.4rem;
+  background-color: var(--my-pink);
+  border: white;
+  border-radius: 4px;
+  margin: 1rem;
+}
+
+.navbar-brand {
+  font-size: 60px;
+}
